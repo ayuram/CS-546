@@ -1,0 +1,992 @@
+Question
+"## Question 1
+What is a good place for a potato to mix with other veggies?
+{'label': ['A', 'B', 'C', 'D', 'E'], 'text': ['beef stew', 'restaurants', 'garden', 'steak house', 'cooking pot']}
+
+## Answer 1
+A
+
+## Question 2
+Benjamin has 24 pencils. He lost a quarter of the pencils, and he still had a third as many pencils as Olivia. How many pencils does Olivia have?
+
+## Answer 2
+Let's break it down:
+
+Benjamin has 24 pencils initially. He lost a quarter of them, which is 24 / 4 = 6 pencils.
+
+So, he has 24 - 6 = 18 pencils left.
+
+It's given that he has a third as many pencils as Olivia. Let's denote the number of pencils Olivia has as x.
+
+Then, we can set up the equation: 18 = x / 3
+
+To find x, we multiply both sides by 3: x = 18 * 3
+
+x = 54
+
+So, Olivia has 54 pencils.
+
+Answer: \boxed{54}
+54"
+"## Question 1
+A small dog will be very happy at what gathering of people?
+{'label': ['A', 'B', 'C', 'D', 'E'], 'text': ['barbeque', ""grandma's house"", 'canada', 'baby carriage', 'basket']}
+
+## Answer 1
+A
+
+## Question 2
+CREATE TABLE table_name_89 (engine VARCHAR, year VARCHAR)
+Which engine was used in 1987?
+
+## Answer 2
+SELECT engine FROM table_name_89 WHERE year = 1987"
+"## Question 1
+CREATE TABLE furniture_manufacte (Furniture_ID VARCHAR, Price_in_Dollar INTEGER); CREATE TABLE furniture (name VARCHAR, Furniture_ID VARCHAR); CREATE TABLE furniture_manufacte (Price_in_Dollar INTEGER)
+Find the names of furnitures whose prices are lower than the highest price.
+
+## Answer 1
+SELECT t1.name FROM furniture AS t1 JOIN furniture_manufacte AS t2 ON t1.Furniture_ID = t2.Furniture_ID WHERE t2.Price_in_Dollar < (SELECT MAX(Price_in_Dollar) FROM furniture_manufacte)
+
+## Question 2
+Before becoming the 37th president of the United States, on which date, month, and year did Richard Nixon retire from the U.S. Naval Reserve?
+
+## Answer 2
+ 1 June 1966"
+"## Question 1
+CREATE TABLE table_name_26 (gold VARCHAR, bronze VARCHAR, silver VARCHAR, total VARCHAR)
+How much Gold has a Silver smaller than 3, and a Total of 9, and a Bronze smaller than 1?
+
+## Answer 1
+SELECT COUNT(gold) FROM table_name_26 WHERE silver < 3 AND total = 9 AND bronze < 1
+
+## Question 2
+What is the first thing a spouse might do when they get up early?
+{'label': ['A', 'B', 'C', 'D', 'E'], 'text': ['go to bed early', 'go sleep early', 'ask spouse to wake', 'get to bed early', 'wake up']}
+
+## Answer 2
+C"
+"## Question 1
+What engraver did Thomas Ryder apprentice under?
+
+## Answer 1
+James Basire.
+
+## Question 2
+Find the number of positive five-digit integers with a tens digit of 7.
+
+## Answer 2
+There are 9 choices for the first digit (1-9), 10 choices for the third digit (0-9), 10 choices for the fourth digit (0-9), and 10 choices for the fifth digit (0-9).
+
+The second digit (tens digit) is fixed at 7.
+
+Thus, the total number of positive five-digit integers with a tens digit of 7 is:
+\[ 9 \times 10 \times 10 \times 10 = 9000 \]
+
+The answer is:
+\[ \boxed{9000} \]
+9000"
+"## Question 1
+CREATE TABLE table_name_51 (württemberg VARCHAR, baden VARCHAR, year VARCHAR)
+What's the Württemberg for Karlsruher FV happening after 1931?
+
+## Answer 1
+SELECT württemberg FROM table_name_51 WHERE baden = ""karlsruher fv"" AND year > 1931
+
+## Question 2
+After being expelled from BSP due to alleged anti-party activities, the Indian politician Kuldeep Singh Sengar joined the Samajwadi Party and won a seat from which constituency in 2007?
+
+## Answer 2
+Bangermau"
+"## Question 1
+The measurement was important and they had to make a, what kind of increase, to get it just right?
+{'label': ['A', 'B', 'C', 'D', 'E'], 'text': ['mighty', 'slight', 'negligible', 'useless', 'petty']}
+
+## Answer 1
+B
+
+## Question 2
+Who kills Daryl Garrs in Happy Valley?
+
+## Answer 2
+Alison Garrs"
+"## Question 1
+Simplify $(3a + b)(a + 2b) - (a + b)^2$.
+
+## Answer 1
+Expand $(3a + b)(a + 2b)$:
+\[ (3a + b)(a + 2b) = 3a(a + 2b) + b(a + 2b) = 3a^2 + 6ab + ab + 2b^2 = 3a^2 + 7ab + 2b^2 \]
+
+Expand $(a + b)^2$:
+\[ (a + b)^2 = a^2 + 2ab + b^2 \]
+
+Now subtract $(a + b)^2$ from $(3a + b)(a + 2b)$:
+\[ (3a^2 + 7ab + 2b^2) - (a^2 + 2ab + b^2) = 3a^2 + 7ab + 2b^2 - a^2 - 2ab - b^2 = 2a^2 + 5ab + b^2 \]
+
+The final simplified expression is:
+\[ \boxed{2a^2 + 5ab + b^2} \]
+2a^2 + 5ab + b^2
+
+## Question 2
+What is the surname of the individual who won the Perkin Prize for Organic Chemistry in 2017?
+
+## Answer 2
+Leigh"
+"## Question 1
+Which Aseprite version had the patch note: ""Added option to enable the 'Snap to Grid' option for the brush preview #4137""?
+
+## Answer 1
+v1.3-rc8
+
+## Question 2
+what does someone start playing guitar to do?
+{'label': ['A', 'B', 'C', 'D', 'E'], 'text': ['listening to music', 'making music', 'arthritis', 'obesity', 'singing']}
+
+## Answer 2
+B"
+"## Question 1
+CREATE TABLE table_27961684_1 (enrollment INTEGER, team_name VARCHAR)
+How many people enrolled for the institute with the Pioneers?
+
+## Answer 1
+SELECT MIN(enrollment) FROM table_27961684_1 WHERE team_name = ""Pioneers""
+
+## Question 2
+In a rectangular prism, the length of the base is $x$ cm, the width of the base is $2x$ cm, and the height is $5x$ cm. The prism is then stretched to form a cube with the same volume as the original prism. What is the ratio of the volume of the original prism to the volume of the cube? Express your answer as a common fraction.
+
+## Answer 2
+The volume of the original rectangular prism is
+\[ V_{\text{prism}} = x \times 2x \times 5x = 10x^3 \]
+
+The volume of the cube is
+\[ V_{\text{cube}} = a^3 \]
+where $a$ is the side length of the cube.
+
+Since the cube has the same volume as the original prism,
+\[ V_{\text{cube}} = V_{\text{prism}} \Rightarrow a^3 = 10x^3 \Rightarrow a = \sqrt[3]{10x^3} = \sqrt[3]{10}x \]
+
+The ratio of the volume of the original prism to the volume of the cube is
+\[ \frac{V_{\text{prism}}}{V_{\text{cube}}} = \frac{10x^3}{(\sqrt[3]{10}x)^3} = \frac{10x^3}{10x^3} = \boxed{1} \]
+1"
+"## Question 1
+Which district court in Norway was politician Nikolai Christian Grove Prebensen a deputy judge from 1878 to 1881?
+
+## Answer 1
+Romsdal District Court
+
+## Question 2
+In quadrilateral $ABCD$, $\angle B$ is a right angle, diagonal $\overline{AC}$ is perpendicular to $\overline{CD}$, $AB=18$, $BC=21$, and $CD=14$. Find the perimeter of triangle $ADC$.
+
+## Answer 2
+To find the perimeter of triangle $ADC$, we need to determine the lengths of sides $AD$, $AC$, and $CD$. We're given $CD=14$.
+
+1. Find the length of diagonal $AC$ using the Pythagorean theorem in right triangle $ABC$:
+\[ AC^2 = AB^2 + BC^2 \Rightarrow AC^2 = 18^2 + 21^2 \Rightarrow AC^2 = 324 + 441 \Rightarrow AC^2 = 765 \Rightarrow AC = \sqrt{765} \]
+
+2. Since diagonal $\overline{AC}$ is perpendicular to $\overline{CD}$, triangle $ACD$ is a right triangle. Apply the Pythagorean theorem again to find $AD$:
+\[ AD^2 = AC^2 + CD^2 \Rightarrow AD^2 = 765 + 14^2 \Rightarrow AD^2 = 765 + 196 \Rightarrow AD^2 = 961 \Rightarrow AD = \sqrt{961} \Rightarrow AD = 31 \]
+
+Now we have all the lengths needed to calculate the perimeter of triangle $ADC$:
+\[ \text{Perimeter of } ADC = AD + AC + CD = 31 + \sqrt{765} + 14 \]
+
+To simplify $\sqrt{765}$, look for perfect square factors:
+\[ \sqrt{765} = \sqrt{9 \times 85} = 3\sqrt{85} \]
+
+Substitute back into the perimeter equation:
+\[ \text{Perimeter of } ADC = 31 + 3\sqrt{85} + 14 = 45 + 3\sqrt{85} \]
+
+Thus, the perimeter of triangle $ADC$ is:
+\[ \boxed{45 + 3\sqrt{85}} \]
+45 + 3\sqrt{85}"
+"## Question 1
+What is a business leader likely to be in charge of?
+{'label': ['A', 'B', 'C', 'D', 'E'], 'text': ['army', 'country', 'micromanagement', 'pack', 'organization']}
+
+## Answer 1
+E
+
+## Question 2
+CREATE TABLE table_name_51 (gdp_2012_millions_of_euro VARCHAR, population_in_millions VARCHAR, gdp__nominal__per_capita_2012_euro VARCHAR)
+What is GDP 2012 Millions of Euro, when Population in Millions is less than 1.3, and when GDP (Nominal) Per Capita 2012 Euro is 20,700(p)?
+
+## Answer 2
+SELECT gdp_2012_millions_of_euro FROM table_name_51 WHERE population_in_millions < 1.3 AND gdp__nominal__per_capita_2012_euro = ""20,700(p)"""
+"## Question 1
+During which period did William Butts Ittner serve as the President of the St. Louis Chapter of the American Institute of Architects?
+
+## Answer 1
+1893 to 1895
+
+## Question 2
+I was creating art, what would be my end product?
+{'label': ['A', 'B', 'C', 'D', 'E'], 'text': ['controversy', 'communication', 'feeling of accomplishment', 'strong emotion', 'work of art']}
+
+## Answer 2
+E"
+"## Question 1
+CREATE TABLE table_25563779_4 (season VARCHAR, national_trophy_rookie VARCHAR)
+If the national trophy/rookie is Simone Iaquinta, what is the season total number?
+
+## Answer 1
+SELECT COUNT(season) FROM table_25563779_4 WHERE national_trophy_rookie = ""Simone Iaquinta""
+
+## Question 2
+Emily spent 48 dollars on pens. She bought a total of 15 pens. She bought 4 black pens at 3 dollars each, 5 red pens at 2 dollars each, and the rest were blue pens. How much does each blue pen cost?
+
+## Answer 2
+Let's denote the number of blue pens as $x$ and the cost of each blue pen as $y$.
+Since Emily bought a total of 15 pens and 4 of them were black and 5 of them were red, we can conclude that she bought $x = 15 - 4 - 5 = 11 - 5 = 6$ blue pens.
+Emily spent a total of 48 dollars.
+The cost of black pens is $4 * 3 = 12$ dollars.
+The cost of red pens is $5 * 2 = 10$ dollars.
+So the cost of blue pens is $48 - 12 - 10 = 36 - 10 = 26$ dollars.
+Since Emily bought 6 blue pens, each blue pen costs $26 / 6 = 4.33$ dollars.
+Thus, each blue pen costs \boxed{4.33} dollars.
+4.33"
+"## Question 1
+CREATE TABLE table_11173827_1 (hk_viewers VARCHAR, chinese_title VARCHAR)
+What amount is the number of hk viewers where chinese title is 十兄弟?
+
+## Answer 1
+SELECT hk_viewers FROM table_11173827_1 WHERE chinese_title = ""十兄弟""
+
+## Question 2
+Let $h(x)$ be a function that satisfies $h(h(x)) = x + 1$ for all $x > 0.$ Given that $h(3) = 7,$ find the value of $h(10).$
+
+## Answer 2
+Let's use the given functional equation $h(h(x)) = x + 1$ and the fact that $h(3) = 7$ to find the value of $h(10)$.
+
+Since $h(3) = 7$, we can substitute $x = 3$ into the functional equation to get:
+\[ h(h(3)) = h(7) = 3 + 1 = 4 \]
+
+Now, we have $h(7) = 4$. Substitute $x = 7$ into the functional equation:
+\[ h(h(7)) = h(4) = 7 + 1 = 8 \]
+
+Next, we have $h(4) = 8$. Substitute $x = 4$ into the functional equation:
+\[ h(h(4)) = h(8) = 4 + 1 = 5 \]
+
+Then, we have $h(8) = 5$. Substitute $x = 8$ into the functional equation:
+\[ h(h(8)) = h(5) = 8 + 1 = 9 \]
+
+After that, we have $h(5) = 9$. Substitute $x = 5$ into the functional equation:
+\[ h(h(5)) = h(9) = 5 + 1 = 6 \]
+
+Continuing, we have $h(9) = 6$. Substitute $x = 9$ into the functional equation:
+\[ h(h(9)) = h(6) = 9 + 1 = 10 \]
+
+Finally, we have $h(6) = 10$. Substitute $x = 6$ into the functional equation:
+\[ h(h(6)) = h(10) = 6 + 1 = 7 \]
+
+So, the answer is:
+\[ \boxed{7} \]
+7"
+"## Question 1
+At the zoo, there are three times as many monkeys as lions. If there are 15 lions, how many animals are there?
+
+## Answer 1
+Let's solve this problem.
+
+We are given that there are 15 lions.
+We are also given that there are three times as many monkeys as lions. So, there are $3 * 15 = 45$ monkeys.
+The total number of animals is the sum of lions and monkeys. So, the total number of animals is $15 + 45 = 60$.
+Thus, there are \boxed{60} animals at the zoo.
+60
+
+## Question 2
+CREATE TABLE table_228439_4 (successor VARCHAR, district VARCHAR)
+Who is the successor for massachusetts 8th?
+
+## Answer 2
+SELECT successor FROM table_228439_4 WHERE district = ""Massachusetts 8th"""
+"## Question 1
+Tom fills a 250 pound sandbag 80% full.  But the filling material he is using is 40% heavier than sand.  How much does the bag weigh?
+
+## Answer 1
+Let's break it down step by step:
+
+1. Tom fills the 250-pound sandbag 80% full, so the amount of sand he would have put in is 250 * 0.8 = 200 pounds.
+2. However, the filling material is 40% heavier than sand, so the weight of the material is 200 * 1.4 = 280 pounds.
+
+Therefore, the bag weighs \boxed{280} pounds.
+280
+
+## Question 2
+Where would you see footprints that happen due to dirt being left behind inside?
+{'label': ['A', 'B', 'C', 'D', 'E'], 'text': ['roof', 'ground', 'rug', 'surface of earth', 'floorboards']}
+
+## Answer 2
+C"
+"## Question 1
+Who received the Richard Dawkins Award in 2004?
+
+## Answer 1
+Ann Druyan
+
+## Question 2
+Simplify $(3x + 2)(x - 4) - (x - 2)(3x + 1)$.
+
+## Answer 2
+\begin{align*}
+(3x + 2)(x - 4) - (x - 2)(3x + 1) &= 3x^2 - 12x + 2x - 8 - (3x^2 + x - 6x - 2) \\
+&= 3x^2 - 10x - 8 - (3x^2 - 5x - 2) \\
+&= 3x^2 - 10x - 8 - 3x^2 + 5x + 2 \\
+&= -5x - 6
+\end{align*}
+
+The answer is $\boxed{-5x - 6}$.
+-5x - 6"
+"## Question 1
+A father was trying to teach his daughter to throw a football, she didn't want to and figured her dad wanted a what?
+{'label': ['A', 'B', 'C', 'D', 'E'], 'text': ['son', 'brother', 'daughtercard', 'man', 'boy']}
+
+## Answer 1
+E
+
+## Question 2
+CREATE TABLE table_name_65 (score VARCHAR, opponent VARCHAR, game VARCHAR, march VARCHAR, points VARCHAR)
+Which Score has a March larger than 15, and Points larger than 96, and a Game smaller than 76, and an Opponent of @ washington capitals?
+
+## Answer 2
+SELECT score FROM table_name_65 WHERE march > 15 AND points > 96 AND game < 76 AND opponent = ""@ washington capitals"""
+"## Question 1
+A square is inscribed in a circle, and a point is chosen at random on the circumference of the circle. What is the probability that the point lies closer to a vertex of the square than to the midpoint of a side?
+
+## Answer 1
+A point lies closer to a vertex of the square than to the midpoint of a side if and only if the point lies on one of the four arcs between a vertex and the midpoint of a side.
+
+The circle can be divided into 8 equal arcs, each with measure 45°. 4 of these arcs are between a vertex and the midpoint of a side.
+
+The probability that the point lies closer to a vertex of the square than to the midpoint of a side is the length of the 4 arcs divided by the length of the entire circle.
+
+The length of the 4 arcs is $\frac{4}{8} \cdot 2 \pi r = \pi r$, where $r$ is the radius of the circle.
+
+The length of the entire circle is $2 \pi r$.
+
+So, the probability is $\frac{\pi r}{2 \pi r} = \boxed{\frac{1}{2}}$.
+\frac{1}{2}
+
+## Question 2
+In what month and year was Spencer Perceval elected Attorney General for England and Wales?
+
+## Answer 2
+April 1802"
+"## Question 1
+CREATE TABLE table_name_34 (date VARCHAR, terrain VARCHAR, stage VARCHAR)
+Which date has a Terrain of plain stage, and a Stage of 4?
+
+## Answer 1
+SELECT date FROM table_name_34 WHERE terrain = ""plain stage"" AND stage = ""4""
+
+## Question 2
+If I am a spectator at a baseball stadium, what am I likely watching?
+{'label': ['A', 'B', 'C', 'D', 'E'], 'text': ['sporting event', 'watch show', 'show', 'demonstration', 'watch game']}
+
+## Answer 2
+A"
+"## Question 1
+In an isosceles right triangle with legs of length 6, a circle is inscribed such that it touches the hypotenuse and both legs. What is the maximum possible area of a square inscribed in this circle?
+
+## Answer 1
+Since the triangle is isosceles and right, both legs are the same length and the hypotenuse is $\sqrt{2}$ times the length of a leg.
+
+Let's find the radius of the inscribed circle.
+
+The area of the right triangle is
+\[ A = \frac{1}{2}bh = \frac{1}{2}(6)(6) = 18 \]
+
+For a right triangle with legs $a$ and $b$ and hypotenuse $c$, the inradius ($r$) can be found using the formula:
+\[ A = r \frac{a + b + c}{2} \]
+
+We know the area $A = 18$, and the lengths of the sides are $6$, $6$, and $6\sqrt{2}$.
+
+Rearrange the formula to solve for $r$:
+\[ r = \frac{2A}{a + b + c} = \frac{2(18)}{6 + 6 + 6\sqrt{2}} = \frac{36}{12 + 6\sqrt{2}} \]
+
+To rationalize the denominator, multiply the numerator and denominator by the conjugate of the denominator:
+\[ r = \frac{36}{12 + 6\sqrt{2}} \cdot \frac{12 - 6\sqrt{2}}{12 - 6\sqrt{2}} = \frac{36(12 - 6\sqrt{2})}{(12 + 6\sqrt{2})(12 - 6\sqrt{2})} \]
+
+\[ r = \frac{432 - 216\sqrt{2}}{144 - 72} = \frac{432 - 216\sqrt{2}}{72} = 6 - 3\sqrt{2} \]
+
+The diameter of the inscribed circle is $2r$, so the side length of the square inscribed in this circle is $\frac{2r}{\sqrt{2}} = \sqrt{2}r$.
+
+The area of the square is $s^2$, where $s$ is the length of a side:
+\[ s^2 = (\sqrt{2}r)^2 = 2r^2 = 2(6 - 3\sqrt{2})^2 \]
+
+\[ s^2 = 2(36 - 36\sqrt{2} + 18) = 2(54 - 36\sqrt{2}) = 108 - 72\sqrt{2} \]
+
+Thus, the maximum possible area of the square is:
+\[ \boxed{108 - 72\sqrt{2}} \]
+108 - 72\sqrt{2}
+
+## Question 2
+CREATE TABLE table_name_39 (status VARCHAR, opposing_teams VARCHAR)
+Who won the event against U.S.A.?
+
+## Answer 2
+SELECT status FROM table_name_39 WHERE opposing_teams = ""u.s.a."""
+"## Question 1
+Let $g(x) = \arctan x$. Find the range of $g(x)$ on the interval $(-\infty, 0]$.
+
+## Answer 1
+## Step 1: Recall the definition of arctan
+The arctan function, denoted as $\arctan x$, is the inverse of the tangent function. It returns the angle whose tangent is a given number.
+
+## Step 2: Determine the range of arctan
+The range of the arctan function is $(-\frac{\pi}{2}, \frac{\pi}{2})$.
+
+## Step 3: Consider the given interval
+We are interested in the interval $(-\infty, 0]$.
+
+## Step 4: Find the range of g(x) on the given interval
+On the interval $(-\infty, 0]$, the arctan function takes values from $-\frac{\pi}{2}$ to 0.
+
+The final answer is: $\boxed{(-\frac{\pi}{2}, 0]}$
+(-\frac{\pi}{2}, 0]
+
+## Question 2
+CREATE TABLE table_name_99 (collaboration VARCHAR, status VARCHAR, indication VARCHAR)
+What company collaborated in pre-clinical autoimmune disease and inflammation?
+
+## Answer 2
+SELECT collaboration FROM table_name_99 WHERE status = ""pre-clinical"" AND indication = ""autoimmune disease and inflammation"""
+"## Question 1
+Which date, month, and year was the Nepal Tourism Board established?
+
+## Answer 1
+December 31st, 1998
+
+## Question 2
+Where would I put a rosebush if I did not want to keep it outside?
+{'label': ['A', 'B', 'C', 'D', 'E'], 'text': ['pot', 'garden center', 'front lawn', 'formal garden', 'backyard']}
+
+## Answer 2
+A"
+"## Question 1
+What would you do if you see food on a plate?
+{'label': ['A', 'B', 'C', 'D', 'E'], 'text': ['clean', 'cook', 'hunt', 'hungry', 'eat']}
+
+## Answer 1
+E
+
+## Question 2
+CREATE TABLE table_1341930_11 (first_elected INTEGER, incumbent VARCHAR)
+What is the most first elected for james c. davis?
+
+## Answer 2
+SELECT MAX(first_elected) FROM table_1341930_11 WHERE incumbent = ""James C. Davis"""
+"## Question 1
+A factory has a machine that produces wooden pencils. When the machine is first started, it takes 8 minutes to produce each pencil due to the time it takes to warm up. After the first hour, once the machine has reached optimal temperature, it takes only 6 minutes to produce each pencil. How many more pencils are produced in the last hour of the day compared to the first?
+
+## Answer 1
+In the first hour, it takes 8 minutes to produce a pencil. So the number of pencils produced is 60 / 8 = 7.5 pencils. Since we can't produce half a pencil, this amounts to 7 pencils.
+In the last hour, it takes 6 minutes to produce a pencil. So the number of pencils produced is 60 / 6 = 10 pencils.
+The difference in the number of pencils produced in the last hour compared to the first hour is 10 - 7 = 3.
+Thus, 3 more pencils are produced in the last hour of the day compared to the first hour.
+So the answer is \boxed{3}.
+3
+
+## Question 2
+CREATE TABLE Student (age INTEGER, StuID VARCHAR); CREATE TABLE Allergy_Type (Allergy VARCHAR, allergytype VARCHAR); CREATE TABLE Has_allergy (StuID VARCHAR, Allergy VARCHAR)
+Find the average age of the students who have allergies with food and animal types.
+
+## Answer 2
+SELECT AVG(age) FROM Student WHERE StuID IN (SELECT T1.StuID FROM Has_allergy AS T1 JOIN Allergy_Type AS T2 ON T1.Allergy = T2.Allergy WHERE T2.allergytype = ""food"" INTERSECT SELECT T1.StuID FROM Has_allergy AS T1 JOIN Allergy_Type AS T2 ON T1.Allergy = T2.Allergy WHERE T2.allergytype = ""animal"")"
+"## Question 1
+On what day, month, and year was Harold Shipman married to Primrose May Oxtoby?
+
+## Answer 1
+5 November 1966.
+
+## Question 2
+If two distinct members of the set $\{ 2, 4, 10, 12, 15, 20, 50 \}$ are randomly selected and multiplied, what is the probability that the product is a multiple of 100? Express your answer as a common fraction.
+
+## Answer 2
+There are 7 numbers in the set, so there are $\binom{7}{2} = \frac{7!}{(7 - 2)!2!} = \frac{7!}{5!2!} = 21$ possible pairs.
+
+To obtain a product that is a multiple of 100, at least one of the factors must have at least 2 factors of 2 and at least one factor of 5.
+
+We can list all pairs $(x,y)$ for which $xy$ is a multiple of 100:
+\[ (10, 20), (20, 10), (20, 50), (50, 20), (10, 50), (50, 10), (4, 50), (50, 4), (4, 25) \text{ and } (12, 50), (50, 12), (20, 15) \text{ and } (20, 15) \]
+
+There are 7 numbers in this set, so there are $\binom{7}{2} = \frac{7!}{(7 - 2)!2!} = \frac{7!}{5!2!} = 21$ possible pairs. Hence there are $\frac{7}{21}$ ways in which we can form such a pair.
+
+\[ \frac{7}{21} = \boxed{\frac{1}{3}} \]
+\frac{1}{3}"
+"## Question 1
+CREATE TABLE table_27712180_7 (high_points VARCHAR, score VARCHAR)
+Name the high points for w 90–77 (ot)
+
+## Answer 1
+SELECT high_points FROM table_27712180_7 WHERE score = ""W 90–77 (OT)""
+
+## Question 2
+In which year did Yasser Arafat (a Palestinian political leader) enroll in the University of King Fuad I?
+
+## Answer 2
+1944"
+"## Question 1
+CREATE TABLE player (POSITION VARCHAR)
+how many different positions are there?
+
+## Answer 1
+SELECT COUNT(DISTINCT POSITION) FROM player
+
+## Question 2
+Find the largest positive integer $x$ such that $x^2$ is relatively prime to $30!$.
+
+## Answer 2
+First, we need to find the prime factorization of $30!$ and identify the primes that divide it.
+
+The prime factorization of $30!$ is
+\[ 30! = 2^{26} \cdot 3^{13} \cdot 5^7 \cdot 7^4 \cdot 11^2 \cdot 13^2 \cdot 17 \cdot 19 \cdot 23 \cdot 29 \]
+
+Any integer $x$ that shares a prime factor with $30!$ will have an $x^2$ that is not relatively prime to $30!$. Therefore, we need to find the largest positive integer $x$ that does not share any prime factors with $30!$.
+
+From the prime factorization, we can see that all prime numbers less than or equal to $29$ are factors of $30!$. This means that any integer $x$ greater than $29$ will have a prime factor that divides $30!$.
+
+The largest positive integer $x$ that does not share any prime factors with $30!$ is the largest prime number less than $30$, which is $29$.
+
+Therefore, the largest positive integer $x$ such that $x^2$ is relatively prime to $30!$ is:
+\[ \boxed{29} \]
+29"
+"## Question 1
+What was Machine Girl's first soundtrack?
+
+## Answer 1
+Neon White Soundtrack Part 1 ""The Wicked Heart""
+
+## Question 2
+CREATE TABLE table_name_96 (record VARCHAR, time VARCHAR)
+What was the record when there was a fight that lasted 5:00?
+
+## Answer 2
+SELECT record FROM table_name_96 WHERE time = ""5:00"""
+"## Question 1
+CREATE TABLE table_name_99 (record VARCHAR, result VARCHAR, attendance VARCHAR)
+What is the record of the game that resulted in a loss with more than 56,648 people in attendance?
+
+## Answer 1
+SELECT record FROM table_name_99 WHERE result = ""loss"" AND attendance > 56 OFFSET 648
+
+## Question 2
+James was in shock.  What he just learned was not what?
+{'label': ['A', 'B', 'C', 'D', 'E'], 'text': ['important', 'calm', 'thundershock', 'surprised', 'expected']}
+
+## Answer 2
+E"
+"## Question 1
+Let $h(4x-1) = 2x + 7$.  For what value of $x$ is $h(x) = x$?
+
+## Answer 1
+To find $h(x) = x$, we need to find a general expression for $h(x)$.
+
+Let $u = 4x - 1$, then
+\[ x = (u + 1) : 4 \]
+
+Given:
+\[ h(u) = 2\frac{(u + 1)}{4} + 7 \]
+
+Simplify the expression for $h(u)$:
+\[ h(u) = \frac{2u + 2}{4} + 7 = \frac{u + 1}{2} + 7 \]
+
+To find where $h(x) = x$:
+\[ x = \frac{x + 1}{2} + 7 \]
+
+Simplify the equation:
+\[ 2x = x + 1 + 14 \Rightarrow x = 15 \]
+
+\[ x = \boxed{15} \]
+15
+
+## Question 2
+What was the title of the American Heart Association's first weight-loss book?
+
+## Answer 2
+American Heart Association No-Fad Diet: A Personal Plan for Healthy Weight Loss"
+"## Question 1
+What is the value assigned to the 'k' argument in the Partitioning Around Medoids algorithm in the right-side plot of Figure 9 in the paper ""Generating Semantic Maps through Multidimensional Scaling: Linguistic Applications and Theory""?
+
+## Answer 1
+5
+
+## Question 2
+CREATE TABLE table_name_79 (score VARCHAR, date VARCHAR)
+What was the score for the game on February 12?
+
+## Answer 2
+SELECT score FROM table_name_79 WHERE date = ""february 12"""
+"## Question 1
+When the man was preparing for having a bath, what did he look for in the water?
+{'label': ['A', 'B', 'C', 'D', 'E'], 'text': ['being clear', 'get wet', 'bathing soap', 'will drown', 'personal cleanliness']}
+
+## Answer 1
+A
+
+## Question 2
+What year did the disco named Infinity in NYC burn down?
+
+## Answer 2
+1979"
+"## Question 1
+CREATE TABLE table_name_72 (pick VARCHAR, year VARCHAR)
+What was 1948's pick?
+
+## Answer 1
+SELECT pick FROM table_name_72 WHERE year = 1948
+
+## Question 2
+What year did Oliver Heaviside publish his second paper on electricity?
+
+## Answer 2
+1873"
+"## Question 1
+Consider the sequence $a_n = 1 + \frac{2}{1 + \frac{2}{1 + \frac{2}{1 + \cdots}}}$, where the sequence terminates after $n$ nested fractions. Prove that the sequence $a_n$ converges and find its limit.
+
+## Answer 1
+Let's analyze the sequence $a_n$ and try to find a pattern.
+
+We have:
+   \begin{align*}
+   a_1 &= 1 + 2 = 3 \\
+   a_2 &= 1 + \frac{2}{1 + 2} = 1 + \frac{2}{3} = \frac{5}{3} \\
+   a_3 &= 1 + \frac{2}{1 + \frac{2}{1 + 2}} = 1 + \frac{2}{\frac{5}{3}} = 1 + \frac{6}{5} = \frac{11}{5} \\
+   a_4 &= 1 + \frac{2}{1 + \frac{2}{1 + \frac{2}{1 + 2}}} = 1 + \frac{2}{\frac{11}{5}} = 1 + \frac{10}{11} = \frac{21}{11}
+   \end{align*}
+
+We can see that the denominators of $a_n$ are the numerators of $a_{n-1}$.
+
+Notice that:
+   \begin{align*}
+   a_2 &= 1 + \frac{2}{a_1} \\
+   a_3 &= 1 + \frac{2}{a_2} \\
+   a_4 &= 1 + \frac{2}{a_3} \\
+   \vdots \\
+   a_n &= 1 + \frac{2}{a_{n-1}}
+   \end{align*}
+
+Assuming the sequence converges to a limit $L$, we have:
+\[ L = 1 + \frac{2}{L} \Rightarrow L^2 - L - 2 = 0 \Rightarrow (L + 1)(L - 2) = 0 \]
+
+This gives us two possible values for $L$: $L = -1$ or $L = 2$.
+
+Since the sequence $a_n$ is positive for all $n$, the limit $L$ must also be positive. Therefore, $L = 2$.
+
+So, the sequence $a_n$ converges to $\boxed{2}$.
+2
+
+## Question 2
+A person who is well off has the simplest of luxuries that they can just do what?
+{'label': ['A', 'B', 'C', 'D', 'E'], 'text': ['perfect world', 'be a snob', 'headache', 'eat well', 'live comfortably']}
+
+## Answer 2
+E"
+"## Question 1
+CREATE TABLE table_22904780_1 (original_air_date VARCHAR, rank__week_ VARCHAR)
+List the original air date for week 5.
+
+## Answer 1
+SELECT original_air_date FROM table_22904780_1 WHERE rank__week_ = 5
+
+## Question 2
+What TTRPG won the 2016 Indie RPG of the Year award?
+
+## Answer 2
+Blades in the Dark"
+"## Question 1
+What does a person use to fight off disease?
+{'label': ['A', 'B', 'C', 'D', 'E'], 'text': ['immune system', 'name', 'one head', 'grip', 'fingernails']}
+
+## Answer 1
+A
+
+## Question 2
+Find the sum of the real roots of the equation $\sqrt[3]{x^3-2x^2-5x+3} = x-1$.
+
+## Answer 2
+First, let's simplify the equation:
+\[ \sqrt[3]{x^3-2x^2-5x+3} = x-1 \]
+
+Take both sides to the power of 3 to eliminate the cube root:
+\[ (\sqrt[3]{x^3-2x^2-5x+3})^3 = (x-1)^3 \]
+
+\[ x^3-2x^2-5x+3 = x^3 - 3x^2 + 3x - 1 \]
+
+Combine like terms:
+\[ -2x^2 - 5x + 3 = -3x^2 + 3x - 1 \]
+
+Simplify the equation:
+\[ x^2 - 8x + 4 = 0 \]
+
+Now we can use the quadratic formula to find the roots:
+\[ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \]
+
+\[ x = \frac{8 \pm \sqrt{(-8)^2 - 4(1)(4)}}{2(1)} \]
+
+\[ x = \frac{8 \pm \sqrt{64 - 16}}{2} \]
+
+\[ x = \frac{8 \pm \sqrt{48}}{2} \]
+
+\[ x = \frac{8 \pm 4\sqrt{3}}{2} \]
+
+\[ x = 4 \pm 2\sqrt{3} \]
+
+So the roots of the equation are $4 + 2\sqrt{3}$ and $4 - 2\sqrt{3}$. The sum of these roots is:
+\[ (4 + 2\sqrt{3}) + (4 - 2\sqrt{3}) = 8 \]
+
+Therefore, the sum of the real roots of the equation is $\boxed{8}$.
+8"
+"## Question 1
+CREATE TABLE table_name_93 (votes INTEGER, draw VARCHAR, artist VARCHAR)
+How many votes did Yvetta Kadakas & Ivo Linna, who had less than 4 draws, have?
+
+## Answer 1
+SELECT SUM(votes) FROM table_name_93 WHERE draw < 4 AND artist = ""yvetta kadakas & ivo linna""
+
+## Question 2
+If $3x-5=10x+9$, what is $4(x+7)$?
+
+## Answer 2
+We can solve the given equation for $x$ by isolating $x$ on one side:
+\[ 3x - 5 = 10x + 9 \Rightarrow 3x - 10x = 5 + 9 \Rightarrow -7x = 14 \Rightarrow x = -2 \]
+
+To find $4(x+7)$, we substitute $x=-2$ into the expression and evaluate:
+\[ 4(x+7) = 4((-2)+7) = 4(5) = 20 \]
+
+So the answer is:
+\[ \boxed{20} \]
+20"
+"## Question 1
+In the figure, five congruent right triangles are arranged to form quadrilateral $PQRS$.  Points $U$ and $V$ are midpoints of $PR$ and $QS$, respectively.  When $U$ and $V$ are joined, the quadrilateral is divided into two smaller quadrilaterals.  The ratio of the area of quadrilateral $PUVQ$ to the area of quadrilateral $UVRS$ in simplified form is $m:n$. Find $m+n$.
+
+[asy]
+pair P, Q, R, S, T, U, V;
+P= (0, 15);
+Q=(24, 15);
+R=(24, 0);
+S=(0, 0);
+T=(12, 0);
+U=(P+R)/2;
+V=(Q+S)/2;
+draw(U--V, dashed);
+draw(P--Q--R--S--P);
+draw(P--T--R);
+draw(T--S, dashed);
+label(""P"", P, NW);
+label(""Q"", Q, NE);
+label(""R"", R, SE);
+label(""S"", S, SW);
+label(""T"", T, S);
+label(""U"", U, E);
+label(""V"", V, W);
+[/asy]
+
+## Answer 1
+## Step 1:  To find the ratio of the area of quadrilateral $PUVQ$ to the area of quadrilateral $UVRS$, we need to analyze the given figure and understand its properties.
+## Step 2:  We observe that five congruent right triangles are arranged to form quadrilateral $PQRS$, and points $U$ and $V$ are midpoints of $PR$ and $QS$, respectively.
+## Step 3:  The given figure suggests that $PQ=RS$ and $QR=PS$, implying that $PQRS$ is a parallelogram. Since opposite sides of a parallelogram are equal, we can conclude that $PQRS$ is a parallelogram.
+## Step 4:  We also notice that $\triangle PUV$ and $\triangle QRV$ are congruent due to the properties of the midpoints of the sides of a parallelogram. Similarly, $\triangle VUS$ and $\triangle QUT$ are congruent.
+## Step 5:  Additionally, we can prove that $\triangle PUV$ is congruent to $\triangle QRV$ and $\triangle VUS$ is congruent to $\triangle QUT$ by the SAS Congruence Theorem.
+## Step 6:  Now, to find the ratio of the areas, we need to consider the areas of these triangles. The area of a triangle is given by the formula $\frac{1}{2} \times \text{base} \times \text{height}$.
+## Step 7:  By comparing the areas of the triangles, we can conclude that the area of quadrilateral $PUVQ$ is equal to the area of quadrilateral $UVRS$ plus the area of $\triangle QUT$.
+## Step 8:  Since the area of quadrilateral $UVRS$ is equal to the area of $\triangle QRV$ plus the area of $\triangle VUS$, and the area of quadrilateral $PUVQ$ is equal to the area of quadrilateral $UVRS$ plus the area of $\triangle QUT$, we can express the ratio of the areas as $\frac{2\triangle QRV + \triangle QUT}{2\triangle QRV}$.
+## Step 9:  Further simplifying this expression, we get $\frac{2+1}{2}=\frac{3}{2}$, which represents the ratio of the areas of quadrilateral $PUVQ$ to quadrilateral $UVRS$.
+## Step 10:  Therefore, the sum of the ratio is $3+2=5$.
+
+The final answer is: $\boxed{5}$
+5
+
+## Question 2
+While driving to work she felt the what of the important decisions to be made today?
+{'label': ['A', 'B', 'C', 'D', 'E'], 'text': ['agitation', 'pressure', 'promotion', 'impatience', 'stress']}
+
+## Answer 2
+B"
+"## Question 1
+Bill saw a wild animal some place where he never expected to see one.  What might that place have been?
+{'label': ['A', 'B', 'C', 'D', 'E'], 'text': ['zoo', 'cafe', 'park', 'outside', 'woodland']}
+
+## Answer 1
+B
+
+## Question 2
+CREATE TABLE table_name_16 (country VARCHAR, venue VARCHAR, year VARCHAR, score VARCHAR)
+Which Country has a Year larger than 1978, and a Score of 295, and a Venue of lindrick golf club?
+
+## Answer 2
+SELECT country FROM table_name_16 WHERE year > 1978 AND score = ""295"" AND venue = ""lindrick golf club"""
+"## Question 1
+The human had lustful needs to fulfill, where did he go as a result?
+{'label': ['A', 'B', 'C', 'D', 'E'], 'text': ['space shuttle', 'anywhere on earth', 'strip club', 'church', 'international space station']}
+
+## Answer 1
+C
+
+## Question 2
+At Frank's Fruit Market, 3 bananas cost as much as 2 apples, and 6 apples cost as much as 4 oranges.  How many oranges cost as much as 18 bananas?
+
+## Answer 2
+The problem states that 3 bananas cost as much as 2 apples, so we can say
+\[ 3b = 2a \Rightarrow a = \frac{3}{2}b \quad \text{(1)} \]
+
+and 6 apples cost as much as 4 oranges, so
+\[ 6a = 4o \Rightarrow o = \frac{6}{4}a \Rightarrow o = \frac{3}{2}a \quad \text{(2)} \]
+
+Using (1) and (2), we get:
+\[ o = \frac{3}{2} \times \frac{3}{2}b \Rightarrow o = \frac{9}{4}b \Rightarrow 4o = 9b \]
+
+We need to find how many oranges cost as much as 18 bananas. Let's use the ratio:
+\[ \frac{4o}{9b} = \frac{x}{18b} \]
+
+\[ 4 \times 18 = 9x \Rightarrow x = \frac{72}{9} \Rightarrow x = \boxed{8} \]
+8"
+"## Question 1
+CREATE TABLE table_name_21 (date VARCHAR, margin_of_victory VARCHAR, runner_s__up VARCHAR)
+What date has a margin of victory of 1 stroke over Greg Kraft?
+
+## Answer 1
+SELECT date FROM table_name_21 WHERE margin_of_victory = ""1 stroke"" AND runner_s__up = ""greg kraft""
+
+## Question 2
+John bought a new bookend for a shelf, but he was frustrated because he forgot that they were supposed to come in what?
+{'label': ['A', 'B', 'C', 'D', 'E'], 'text': ['pair', 'a box', 'library book', 'school library', 'library holding books together']}
+
+## Answer 2
+A"
+"## Question 1
+What was the title of the game played in Episode 11 of Season 3 of the American version of ""The Circle""?
+
+## Answer 1
+Circle Yearbook
+
+## Question 2
+The slant height of a cone is 17 cm, and the height from the vertex to the center of the base is 15 cm. What is the number of cubic centimeters in the volume of the cone? Express your answer in terms of π.
+
+## Answer 2
+Let's denote the radius of the cone's base as $r$.
+
+The slant height of the cone is the hypotenuse of the right triangle formed by the height of the cone and the radius of the base. Therefore, we can use the Pythagorean theorem to find $r$:
+\[ r^2 + 15^2 = 17^2 \Rightarrow r^2 + 225 = 289 \Rightarrow r^2 = 64 \Rightarrow r = 8 \]
+
+Now, the volume of the cone can be calculated using the formula:
+\[ V = \frac{1}{3} \pi r^2 h \]
+
+Substitute the known values:
+\[ V = \frac{1}{3} \pi (8)^2 (15) = \frac{1}{3} \pi 64 \cdot 15 = \frac{1}{3} \pi 960 = \boxed{320 \pi} \]
+320 \pi"
+"## Question 1
+In a rectangular coordinate system, what is the number of units in the distance from the origin to the point (7, -24)?
+
+## Answer 1
+The distance from the origin (0, 0) to the point (7, -24) can be calculated using the distance formula:
+
+\[ \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} = \sqrt{(7 - 0)^2 + (-24 - 0)^2} = \sqrt{7^2 + (-24)^2} = \sqrt{49 + 576} = \sqrt{625} = \boxed{25} \]
+25
+
+## Question 2
+CREATE TABLE table_name_87 (division VARCHAR, team VARCHAR)
+Which division do the Toronto Raptors belong in?
+
+## Answer 2
+SELECT division FROM table_name_87 WHERE team = ""toronto raptors"""
+"## Question 1
+What do teachers encourage a child to do?
+{'label': ['A', 'B', 'C', 'D', 'E'], 'text': ['fight', 'become adult', 'play video games', 'wave goodbye', 'ask many questions']}
+
+## Answer 1
+E
+
+## Question 2
+For each pair of real numbers $a \ne b$, define the operation $\star$ as \[
+(a \star b) = \frac{a + b}{a - b}.
+\]What is the value of $((1 \star 2) \star 4)$?
+
+## Answer 2
+Using the definition, first calculate $(1 \star 2)$:
+\[ (1 \star 2) = \frac{1 + 2}{1 - 2} = \frac{3}{-1} = -3 \]
+
+Now, substitute this result to find $((-3) \star 4)$:
+\[ ((1 \star 2) \star 4) = (-3 \star 4) = \frac{-3 + 4}{-3 - 4} = \frac{1}{-7} = \boxed{-\frac{1}{7}} \]
+-\frac{1}{7}"
+"## Question 1
+A bakery sells two types of cakes: chocolate and vanilla. A chocolate cake weighs 10% more than a vanilla cake, and when 2/3 of a chocolate cake is consumed, it weighs 450 grams less than when 1/3 of a vanilla cake is consumed. What is the weight of a whole vanilla cake?
+
+## Answer 1
+Let's denote the weight of a whole vanilla cake as $V$ grams.
+
+Since a chocolate cake weighs 10% more than a vanilla cake, the weight of a whole chocolate cake is $1.1V$ grams.
+
+When 2/3 of a chocolate cake is consumed, the remaining weight is $1/3$ of the original weight of the chocolate cake, which is $1/3 \cdot 1.1V = 0.3667V$ grams.
+
+When 1/3 of a vanilla cake is consumed, the remaining weight is $2/3$ of the original weight of the vanilla cake, which is $2/3 \cdot V = 0.6667V$ grams.
+
+According to the problem, when 2/3 of a chocolate cake is consumed, it weighs 450 grams less than when 1/3 of a vanilla cake is consumed. This means that the difference between the remaining weights of the two cakes is 450 grams.
+
+So, we can set up the equation:
+\[ 0.6667V - 0.3667V = 450 \]
+
+Simplifying the equation, we get:
+\[ 0.3V = 450 \]
+
+Dividing both sides by 0.3, we get:
+\[ V = 450 : 0.3 \Rightarrow V = 1500 \]
+
+Therefore, the weight of a whole vanilla cake is 1500 grams.
+
+The answer is:
+\[ \boxed{1500} \]
+1500
+
+## Question 2
+What could prevent you from doing housework that involves dust?
+{'label': ['A', 'B', 'C', 'D', 'E'], 'text': ['fatigue', 'maid', 'headache', 'arguments', 'asthma']}
+
+## Answer 2
+E"
+"## Question 1
+At which international show jumping event did Susie Hutchison and Samsung Woodstock get blocked mid-round by the ring crew?
+
+## Answer 1
+Volvo FEI World Cup Final
+
+## Question 2
+In a quadrilateral, the measures of three interior angles are 80°, 90°, and 120°. If the sum of the measures of all four interior angles is 360°, what is the measure of the smallest interior angle?
+
+## Answer 2
+The sum of the interior angles in a quadrilateral is always 360°. We are given three of the angles and need to find the fourth one.
+
+Let's denote the unknown angle as $x$. Then we have:
+\[ x + 80 + 90 + 120 = 360 \]
+
+Solving for $x$:
+\[ x + 290 = 360 \Rightarrow x = 70 \]
+
+So, the smallest interior angle is 70°.
+
+The answer is:
+\[ \boxed{70} \]
+70"
+"## Question 1
+Water is used as a mirror when designing a what?
+{'label': ['A', 'B', 'C', 'D', 'E'], 'text': ['pool', 'reflecting pool', 'fish tank', 'ocean', 'sewage treatment plant']}
+
+## Answer 1
+B
+
+## Question 2
+What year was LEGO part ID 3778 initially released?
+
+## Answer 2
+1979"
+"## Question 1
+From what country is the fox?
+{'label': ['A', 'B', 'C', 'D', 'E'], 'text': ['rural area', 'england', 'mountains', 'hen house', 'united states']}
+
+## Answer 1
+B
+
+## Question 2
+CREATE TABLE table_name_59 (concacaf INTEGER, superliga VARCHAR, merconorte VARCHAR, player VARCHAR)
+Name the average concacaf for merconorte larger than 0 and player of jared borgetti
+
+## Answer 2
+SELECT AVG(concacaf) FROM table_name_59 WHERE merconorte > 0 AND player = ""jared borgetti"" AND superliga > 0"
