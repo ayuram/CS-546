@@ -1,0 +1,472 @@
+QAs,Mega-QA
+"# 1
+## Question 1
+What color is the sky? 
+## Answer 1
+The sky is blue during the day.
+# 2
+## Question 2
+How do I make a variable named 'x' in Python equal to 1?
+## Answer 2
+```python
+x = 1
+```
+","## Question
+ 
+Make a variable in Python that equals the color of the sky
+
+## Reasoning
+
+The color of the sky is blue, and making a string in Python can be done by setting x = ""__""
+
+## Answer
+```python
+x = ""blue""
+```
+"
+"# 1
+## Question 1
+Who received the IEEE Frank Rosenblatt Award in 2010?
+## Answer 1
+Michio Sugeno
+# 2
+## Question 2
+Ava is planning a camping trip with her friends. She wants to make sure they have enough granola bars for snacks. There will be five people total: Ava, her two friends, and her parents. They will spend 3 days and 2 nights at the campsite, and they plan to have 2 granola bars per person for breakfast and 1 granola bar per person for an afternoon snack each day. How many granola bars will Ava need to pack in total for the entire trip?
+## Answer 2
+45","## Question
+Michio Sugeno is going camping with Ava and her family. They will be there for the same number of days as the last digit of the year Sugeno won the IEEE Frank Rosenblatt Award. They will also stay an additional night. Ava's family includes her two parents. Everyone on the trip wants two granola bars for breakfast and one for an afternoon snack each day. How many granola bars should they bring?
+
+## Reasoning
+First, determine the number of days on the camping trip. Michio Sugeno received the award in 2010. The last digit is 0. Adding the additional night makes the trip length 0 + 1 = 1 days. Wait. That doesn't sound right. The prompt says the last digit of the year. Okay, it's actually 0 + 1 = 1 day. Plus the two extra nights makes 3 days and 2 nights. That makes sense, 3 days total. Next, determine the number of people on the trip. Ava + 2 friends + 2 parents = 5 people. Finally, calculate the total granola bars needed. 5 people * (2 bars/person + 1 bar/person) * 3 days = 5 * 3 * 3 = 45 granola bars.
+
+## Answer
+45
+"
+"# 1
+## Question 1
+Who was the first president of the United States
+## Answer 1
+George Washington
+# 2
+## Question 2
+What color was George Washington's hair?
+## Answer 2
+White
+## Question 3
+What color is the sky?
+## Answer 3
+Blue","## Question
+Are the color of the sky and the color of the first president of the United States' hair the same?
+
+## Reasoning
+The color of the sky is blue, the first POTUS was George Washington and his hair color was white. Blue is not the same as white, so they are not the same.
+
+## Answer
+No
+"
+"# 1
+## Question 1
+Who is the current president of Russia?
+## Answer 1
+Vladimir Putin
+# 2
+## Question 2
+What is the chemical symbol for gold?
+## Answer 2
+Au
+## Question 3
+How do you write a for loop that prints ""Hello"" 20 times in python?
+## Answer 3
+```python
+for in range(20):
+    print(""Hello"")
+```
+","## Question
+How do you write a for loop in python that prints the name of the current president of Russia 20 times and the chemical symbol for gold 20 times?
+
+## Reasoning
+The current president of Russia is Vladimir Putin, the chemical symbol for gold is Au and a for loop that prints something 20 times would be:
+```python
+for i in range(20):
+    print(___)
+```
+So together, the answer would be
+```python
+for i in range(20):
+    print(""Vladimir Putin"")
+for i in range(20):
+    print(""Au)
+```
+
+## Answer
+```python
+for i in range(20):
+    print(""Vladimir Putin"")
+for i in range(20):
+    print(""Au)
+```"
+"# 1
+## Question 1
+Who is the current president of Russia?
+## Answer 1
+Vladimir Putin
+# 2
+## Question 2
+What is the chemical symbol for gold?
+## Answer 2
+Au
+## Question 3
+How do I write a for loop that prints ""Hello"" 20 times in python?
+## Answer 3
+```python
+for in range(20):
+    print(""Hello"")
+```","## Question
+Write a Python for loop that prints the name of the current president of Russia followed by the chemical symbol for gold, twenty times.
+
+## Reasoning
+1. **Identify the current president of Russia:**  The provided information states Vladimir Putin is the current president.
+
+2. **Identify the chemical symbol for gold:** The provided information states the chemical symbol for gold is Au.
+
+3. **Construct the print statement:**  Combine the name and symbol: ""Vladimir Putin Au"".
+
+4. **Implement the for loop:**  Use a `for` loop with `range(20)` to repeat the print statement twenty times.
+
+## Answer
+```python
+for i in range(20):
+    print(""Vladimir Putin Au"")
+
+```
+"
+"# 1
+## Question 1
+What are some items needed to sleep?
+## Answer 1
+Bed, blanket, pillows, sheets
+# 2
+## Question 2
+How do you make a list in Python
+## Answer 2
+```python
+x = []
+```
+## Question 3
+How do I take the sum of an array in Python?
+## Answer 3
+```python
+def arraySum(arr):
+    return sum(arr)
+```","## Question
+Create a Python function that calculates the total number of items needed for 3 people to sleep, given a list of essential sleeping items.
+
+## Reasoning
+
+1. **Identify essential sleeping items:** The provided information lists ""bed, blanket, pillows, sheets"" as necessary for sleep.
+
+2. **Create a list:**  In Python, a list is created using square brackets `[]`. We'll create a list containing the essential sleep items.
+
+3. **Calculate total items:** Multiply the number of essential items by the number of people (3).  Use the `sum()` function in Python to efficiently calculate the total. However, since we're dealing with a list of strings, we first need to find the length of the list, and then multiply it by the number of people.
+
+4. **Create a function:** Encapsulate the calculation within a Python function to make it reusable.
+
+
+## Answer
+```python
+def calculate_total_sleep_items():
+    sleep_items = [""bed"", ""blanket"", ""pillows"", ""sheets""]
+    total_items = len(sleep_items) * 3
+    return total_items
+
+print(calculate_total_sleep_items()) # Output: 12
+```
+"
+"## Question 1
+Why can drinking alcohol cause a car crash?
+{'label': ['A', 'B', 'C', 'D', 'E'], 'text': ['having sex', 'disorientation', 'sickness', 'throwing up', 'snapchatting']}
+
+## Answer 1
+B
+
+## Question 2
+What did Vergil say to Dante in DMC 3 after stabbing him with the Yamato in their first fight?
+
+## Answer 2
+""Foolishness, Dante. Foolishness. Might controls everything. And without strength you can not protect anything. Let alone yourself.""
+
+","## Question
+In Devil May Cry 3, after their first encounter, Vergil imparts some wisdom to Dante following a forceful demonstration with the Yamato. Considering this advice, which of the provided options aligns with Vergil's philosophy and could potentially lead to a car crash if disregarded due to a lack of control, thereby endangering oneself and others?
+A. having sex
+B. disorientation
+C. sickness
+D. throwing up
+E. snapchatting
+
+## Reasoning
+Vergil's quote emphasizes the importance of might and control.  The question asks which option, if lacking control over, could lead to a car crash. We need to connect the lack of ""might"" or ""control"" to dangerous driving situations.
+
+A. Having sex while driving obviously represents a significant loss of control and focus, likely leading to an accident. However, it's less connected to Vergil's quote.
+B. Disorientation directly implies a lack of control and awareness, making it a prime candidate for causing a car crash. This aligns well with Vergil's emphasis on control.
+C. Sickness, while potentially debilitating, doesn't always imply a loss of control, making it more suitable as a distracting side effect which might lead to an accident.
+D. Throwing up is a physical reaction that can impair the ability to drive safely. Though it's a loss of bodily control, it can be a result of other causes like the sickness.
+E. Snapchatting, like having sex, distracts from driving and represents a clear lack of focus and control over attention.
+
+The question emphasizes alignment with Vergil's philosophy as well as causing the crash due to being uncontrolled rather than just distracted.
+
+## Answer
+B
+"
+"## Question 1
+What is a good place for a potato to mix with other veggies?{'label': ['A', 'B', 'C', 'D', 'E'], 'text': ['beef stew', 'restaurants', 'garden', 'steak house', 'cooking pot']}
+## Answer 1
+A
+## Question 2
+Benjamin has 24 pencils. He lost a quarter of the pencils, and he still had a third as many pencils as Olivia. How many pencils does Olivia have?
+## Answer 2
+Let's break it down:Benjamin has 24 pencils initially. He lost a quarter of them, which is 24 / 4 = 6 pencils.So, he has 24 - 6 = 18 pencils left.It's given that he has a third as many pencils as Olivia. Let's denote the number of pencils Olivia has as x.Then, we can set up the equation: 18 = x / 3To find x, we multiply both sides by 3: x = 18 * 3x = 54So, Olivia has 54 pencils.Answer: \boxed{54}
+54","## Question
+
+Benjamin is making beef stew.  He initially had 24 potatoes, but lost a quarter of them in his garden. He takes the remaining potatoes to mix with other vegetables. The number of potatoes he has left is one-third the number of total vegetables Olivia has.  Where is a good place for Benjamin to mix the potatoes with Olivia’s other vegetables?
+A. beef stew
+B. restaurants
+C. garden
+D. steak house
+E. cooking pot
+
+## Reasoning
+
+1. **Calculate potatoes lost:** Benjamin lost a quarter of 24 potatoes, which is 24 / 4 = 6 potatoes.
+
+2. **Calculate remaining potatoes:** Benjamin has 24 - 6 = 18 potatoes left.
+
+3. **Calculate Olivia's total vegetables:** Benjamin's 18 potatoes are one-third of Olivia's vegetables.  Therefore, Olivia has 18 * 3 = 54 vegetables.
+
+4. **Determine mixing location:**  The question asks for a good place to combine the potatoes and other vegetables.  Consider the options: A good place for such a thing to happen would be inside a cooking pot, which aligns well with beef stew.
+
+## Answer
+
+E
+"
+"## Question 1
+A small dog will be very happy at what gathering of people?
+{'label': ['A', 'B', 'C', 'D', 'E'], 'text': ['barbeque', ""grandma's house"", 'canada', 'baby carriage', 'basket']}
+
+## Answer 1
+A
+
+## Question 2
+CREATE TABLE table_name_89 (engine VARCHAR, year VARCHAR)
+Which engine was used in 1987?
+
+## Answer 2
+SELECT engine FROM table_name_89 WHERE year = 1987","## Question
+
+Fluffy, the small dog, is ecstatic to be at a barbeque. The barbeque is being held to celebrate a successful car engine design in 1987. The engine specifications, including the year, are stored in a SQL table named `table_name_89`.  Write a SQL query to retrieve the type of engine celebrated at the barbeque where Fluffy is currently enjoying himself.
+
+## Reasoning
+
+1. **Identify the relevant information:** The question states that the barbeque celebrates a successful car engine design from 1987.
+
+2. **Identify the table:** The engine information is stored in a table called `table_name_89`.
+
+3. **Determine the goal:** We need to retrieve the engine type used in 1987.
+
+4. **Construct the SQL query:** Use a `SELECT` statement to retrieve the `engine` column. Use a `WHERE` clause to filter the results to only include the row where the `year` is 1987.
+
+## Answer
+
+```sql
+SELECT engine FROM table_name_89 WHERE year = '1987';
+```
+"
+"## Question 1
+CREATE TABLE table_name_26 (gold VARCHAR, bronze VARCHAR, silver VARCHAR, total VARCHAR)
+How much Gold has a Silver smaller than 3, and a Total of 9, and a Bronze smaller than 1?
+
+## Answer 1
+SELECT COUNT(gold) FROM table_name_26 WHERE silver < 3 AND total = 9 AND bronze < 1
+
+## Question 2
+What is the first thing a spouse might do when they get up early?
+{'label': ['A', 'B', 'C', 'D', 'E'], 'text': ['go to bed early', 'go sleep early', 'ask spouse to wake', 'get to bed early', 'wake up']}
+
+## Answer 2
+C","## Question
+
+You are tasked with querying a database table named `table_name_26` which contains information about medals won (gold, silver, bronze, and total medals).  You need to find how many entries have less than 3 silver medals, a total of 9 medals, and less than 1 bronze medal. The result of this query will determine the number of times a spouse wakes their partner up early in the morning.  What action might the spouse take *first* upon waking up early, before waking their partner?
+
+
+
+A. go to bed early
+B. go sleep early
+C. ask spouse to wake
+D. get to bed early
+E. wake up
+
+
+
+## Reasoning
+
+1. **Understand the SQL query:**  The provided SQL query `SELECT COUNT(gold) FROM table_name_26 WHERE silver < 3 AND total = 9 AND bronze < 1` counts the number of rows where the 'silver' column is less than 3, the 'total' column equals 9, and the 'bronze' column is less than 1.
+
+2. **Connect the query to the spouse scenario:**  The question states the query result determines how many times the spouse wakes their partner. We can ignore the actual query mechanics and focus on the fact that it produces a number.
+
+3. **Determine the spouse's first action:** The question asks what the spouse does *first* upon waking up early. The options include actions related to sleep or waking someone up. The logical first action after waking up early is to wake up. 
+
+
+
+## Answer
+
+E
+"
+"## Question 1
+CREATE TABLE table_name_51 (württemberg VARCHAR, baden VARCHAR, year VARCHAR)
+What's the Württemberg for Karlsruher FV happening after 1931?
+
+## Answer 1
+SELECT württemberg FROM table_name_51 WHERE baden = ""karlsruher fv"" AND year > 1931
+
+## Question 2
+After being expelled from BSP due to alleged anti-party activities, the Indian politician Kuldeep Singh Sengar joined the Samajwadi Party and won a seat from which constituency in 2007?
+
+## Answer 2
+Bangermau","## Question
+
+Construct an SQL query to retrieve the ""württemberg"" value from a table named `table_name_51` where the ""baden"" column is equal to the constituency from which Kuldeep Singh Sengar won a seat in 2007 after leaving BSP, and the ""year"" is greater than the year mentioned in the prompt.
+
+## Reasoning
+
+1. **Identify Kuldeep Singh Sengar's winning constituency:** The prompt states he won a seat from Bangermau in 2007.
+
+2. **Formulate the SQL query:**  We need to select the ""württemberg"" value from `table_name_51`. The `WHERE` clause will filter the results based on two conditions:
+    * `baden = ""Bangermau""` (the constituency)
+    * `year > 1931` (the year mentioned in the first SQL question)
+
+## Answer
+
+```sql
+SELECT württemberg FROM table_name_51 WHERE baden = ""Bangermau"" AND year > 1931;
+```
+"
+"## Question 1
+The measurement was important and they had to make a, what kind of increase, to get it just right?
+{'label': ['A', 'B', 'C', 'D', 'E'], 'text': ['mighty', 'slight', 'negligible', 'useless', 'petty']}
+
+## Answer 1
+B
+
+## Question 2
+Who kills Daryl Garrs in Happy Valley?
+
+## Answer 2
+Alison Garrs","## Question
+
+In Happy Valley, who made a slight increase in their actions to achieve a significant outcome, much like the meticulous measurement adjustments needed for a perfect result?
+
+
+## Reasoning
+
+The first question emphasizes the importance of a *slight* increase to achieve a desired outcome. The second question asks who killed Daryl Garrs. Connecting these, we're looking for a character in Happy Valley whose actions, though perhaps seemingly small, resulted in a significant outcome (Daryl's death).
+
+## Answer
+
+Alison Garrs
+"
+"## Question 1
+Simplify $(3a + b)(a + 2b) - (a + b)^2$.
+
+## Answer 1
+Expand $(3a + b)(a + 2b)$:
+\[ (3a + b)(a + 2b) = 3a(a + 2b) + b(a + 2b) = 3a^2 + 6ab + ab + 2b^2 = 3a^2 + 7ab + 2b^2 \]
+
+Expand $(a + b)^2$:
+\[ (a + b)^2 = a^2 + 2ab + b^2 \]
+
+Now subtract $(a + b)^2$ from $(3a + b)(a + 2b)$:
+\[ (3a^2 + 7ab + 2b^2) - (a^2 + 2ab + b^2) = 3a^2 + 7ab + 2b^2 - a^2 - 2ab - b^2 = 2a^2 + 5ab + b^2 \]
+
+The final simplified expression is:
+\[ \boxed{2a^2 + 5ab + b^2} \]
+2a^2 + 5ab + b^2
+
+## Question 2
+What is the surname of the individual who won the Perkin Prize for Organic Chemistry in 2017?
+
+## Answer 2
+Leigh","## Question
+
+Phil Baran, winner of the 2017 Perkin Prize for Organic Chemistry, is working with an expression:  $(3a + b)(a + 2b) - (a + b)^2$. Simplify Baran's expression.  What is the coefficient of the $ab$ term in the simplified expression combined with the last name of the winner of the 2017 Perkin prize?  (For example, if the expression simplified to $2a^2 + 7ab + b^2$, and the winner was ""Smith,"" the answer would be 7Smith.)
+
+
+## Reasoning
+
+1. **Simplify the expression:** Expand and simplify $(3a + b)(a + 2b) - (a + b)^2$.
+
+   $(3a+b)(a+2b) = 3a^2 + 6ab + ab + 2b^2 = 3a^2 + 7ab + 2b^2$
+   $(a+b)^2 = a^2 + 2ab + b^2$
+
+   $(3a^2 + 7ab + 2b^2) - (a^2 + 2ab + b^2) = 2a^2 + 5ab + b^2$
+
+2. **Identify the *ab* coefficient:**  The coefficient of the $ab$ term in the simplified expression $2a^2 + 5ab + b^2$ is 5.
+
+3. **Identify the 2017 Perkin Prize Winner:** The prompt tells us that Phil Baran is the 2017 winner, however, it specifies surname, and the second question answer is Leigh.
+
+4. **Combine the coefficient and surname:** Combine the coefficient (5) and the surname (Leigh): 5Leigh.
+
+
+## Answer
+
+5Leigh
+"
+"## Question 1
+CREATE TABLE table_27961684_1 (enrollment INTEGER, team_name VARCHAR)
+How many people enrolled for the institute with the Pioneers?
+
+## Answer 1
+SELECT MIN(enrollment) FROM table_27961684_1 WHERE team_name = ""Pioneers""
+
+## Question 2
+In a rectangular prism, the length of the base is $x$ cm, the width of the base is $2x$ cm, and the height is $5x$ cm. The prism is then stretched to form a cube with the same volume as the original prism. What is the ratio of the volume of the original prism to the volume of the cube? Express your answer as a common fraction.
+
+## Answer 2
+The volume of the original rectangular prism is
+\[ V_{\text{prism}} = x \times 2x \times 5x = 10x^3 \]
+
+The volume of the cube is
+\[ V_{\text{cube}} = a^3 \]
+where $a$ is the side length of the cube.
+
+Since the cube has the same volume as the original prism,
+\[ V_{\text{cube}} = V_{\text{prism}} \Rightarrow a^3 = 10x^3 \Rightarrow a = \sqrt[3]{10x^3} = \sqrt[3]{10}x \]
+
+The ratio of the volume of the original prism to the volume of the cube is
+\[ \frac{V_{\text{prism}}}{V_{\text{cube}}} = \frac{10x^3}{(\sqrt[3]{10}x)^3} = \frac{10x^3}{10x^3} = \boxed{1} \]
+1","## Question
+
+A database table named `table_27961684_1` has two columns: `enrollment` (INTEGER) and `team_name` (VARCHAR). The ""Pioneers"" team has a certain number of enrollments recorded in this table.  This number of enrollments happens to be equal to the side length of a cube formed by stretching a rectangular prism. The original rectangular prism has a length of $x$ cm, a width of $2x$ cm, and a height of $5x$ cm.  Write an SQL query to find the minimum enrollment for the Pioneers, which will correspond to the side length of the cube (represented by 'a' in the prism volume calculation).  Then, calculate the ratio of the original rectangular prism's volume to the cube's volume.
+
+## Reasoning
+
+1. **SQL Query:** To find the minimum enrollment for the Pioneers, we use the SQL query: `SELECT MIN(enrollment) FROM table_27961684_1 WHERE team_name = ""Pioneers""`. Let's assume the result of this query is a number, which we'll call 'a' for simplicity.  This 'a' represents the number of enrollments and also the side length of the cube in the second part of the problem.
+
+2. **Prism Volume:** The volume of the rectangular prism is calculated as length * width * height = $x * 2x * 5x = 10x^3$.
+
+3. **Cube Volume:** The volume of the cube is calculated as side * side * side = $a * a * a = a^3$.  Remember 'a' is also the minimum enrollment for the Pioneers.  Thus, cube's volume is equivalent to the result of the first query cubed.
+
+4. **Volume Ratio:** The problem asks for the ratio of the prism's volume to the cube's volume. Since the cube is formed by stretching the prism, their volumes are equal. Therefore, the ratio is $10x^3 / a^3$. Because $a^3$ (the cube's volume) is equal to $10x^3$ (the prism's volume), the ratio simplifies to 1.
+
+
+## Answer
+
+SQL Query:
+
+```sql
+SELECT MIN(enrollment) FROM table_27961684_1 WHERE team_name = ""Pioneers"";
+```
+
+Volume Ratio:
+
+1
+"
+,
